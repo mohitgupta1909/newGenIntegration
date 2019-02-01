@@ -23,6 +23,7 @@ public class Receiver {
     	System.out.println("received message='{}'"+ order);
         LOG.info("received message='{}'", order);
         orderDAOImpl.create(order);
+        
     }
 
 }
